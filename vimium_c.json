@@ -1,0 +1,16 @@
+{
+	"name": "Vimium C",
+	"environment": {
+		"extension": "1.85.0",
+		"platform": "linux"
+	},
+	"exclusionRules": [
+		{
+			"pattern": ":https://duckduckgo.com/",
+			"passKeys": "h j k l "
+		}
+	],
+	"searchUrl": "https://www.duckduckgo.com/?q=$s",
+	"userDefinedCss": ".D>.LH{background:#547858; color: white !important; border: none; }",
+	"vimSync": false
+}
