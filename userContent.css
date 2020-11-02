@@ -1,0 +1,44 @@
+:root{
+  scrollbar-color: rgba(100,100,100,0.5) rgba(4, 4, 4, 0.1);
+  scrollbar-width: thin;
+}
+
+@-moz-document url("about:home"), url("about:newtab") {
+  /* Prevent white flash */
+  .activity-stream { background-color: #000000 !important; }
+
+  /* Load background image */
+  body{
+    background-image: url("https://www.loudwallpapers.com/wp-content/uploads/2018/10/beautiful-forest-at-night-wallpaper-in-4k.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Transparrent & dark search bar */
+  .search-inner-wrapper{ 
+    position: absolute !important;
+    top: 50% !important; right: 50% !important;
+    transform: translate(50%,-50%) !important;
+  }
+
+  #newtab-search-text {
+  	background-color: #000000AA !important;
+  	color: white !important;
+  	border: 1px solid black !important;
+  }
+
+  .search-wrapper:active input, .search-wrapper input:focus { box-shadow: 0 0 0 1px black !important; }
+
+  /* Move settings icon to bottom */
+  .icon-settings { top: unset !important; bottom: 10px !important; }
+
+  /* Hide bloat */
+  .logo-and-wordmark, .ds-highlights, .ds-top-sites { display: none !important }
+}
+
+@-moz-document url("about:blank") {
+  *:empty:not([id]):not([style]) {
+    background-color: #000000 !important;
+  }
+}
