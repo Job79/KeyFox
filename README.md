@@ -1,6 +1,6 @@
 <div align="center">
 <h1>KeyFox</h1>
-<b>Minimal, Simple and Keyboard only</b>
+<b>Minimal, Simple and usable with a Keyboard only</b>
 </div>
 
 ![](https://github.com/Job79/keyfox/raw/master/screenshots/2020-11-02-191039_1222x980_scrot.png)
