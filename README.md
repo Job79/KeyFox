@@ -20,7 +20,6 @@
     firefox-developer-edition: `$HOME/.mozilla/firefox/XXXXXXX.dev-edition-default/`
 4) Create a folder named `chrome` and paste the `userChrome.css` and `userContent.css` from this repo into the new folder.
 5) Restart firefox
-
 6) [Optional] Install vimium_c and import vimium_c.conf
 
 # Usage
