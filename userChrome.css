@@ -63,7 +63,9 @@
 #urlbar-input { text-align: center !important; }
 #urlbar {
     width: 60% !important;
-    margin-left: 23%;
+    position: absolute !important;
+    left:51%!important; right:49%!important;
+    transform: translateX(-50%);
     border: none !important; 
 }
 
