@@ -11,6 +11,6 @@
 		}
 	],
 	"searchUrl": "https://www.duckduckgo.com/?q=$s",
-	"userDefinedCss": ".D>.LH{background:#547858; color: white !important; border: none; }",
+	"userDefinedCss": ".MC,.MH{color:#96968b;}.D>.LH{background:#486d4a;color:#FFFEF2;border:none;}",
 	"vimSync": false
 }

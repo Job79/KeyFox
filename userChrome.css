@@ -1,10 +1,11 @@
 :root {
     /* Colors */
     --bg                : #000000;
-    --bg-focussed       : #151515;
-    --fg                : #999999;
-    --fg-focussed       : #FFFFFF;
-    --accent            : #547858;
+    --bg-focussed       : #181818;
+    --fg                : #96968b;
+    --fg-focussed       : #FFFEF2;
+    --accent            : #486d4a;
+
 
     /* Font */
     --font              : Hack;
