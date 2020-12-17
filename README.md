@@ -1,6 +1,6 @@
-<div align="center">
-<h1>KeyFox</h1>
-<b>Minimal, Simple and only usable with a Keyboard</b>
+<div align="center" style="margin-bottom: 10px">
+  <h1>KeyFox</h1>
+  <b>Minimal, Simple and only usable with a Keyboard</b>
 </div>
 
 ![](https://github.com/Job79/keyfox/raw/master/screenshots/2020-11-02-191039_1222x980_scrot.png)
@@ -22,6 +22,6 @@
 5) Restart firefox
 6) [Optional] Install vimium_c and import vimium_c.conf
 
-# Usage
+### Usage
 Press Control+L or Alt+d to access the url bar and hide the tabs<br/>
 Navigate, move focus or press F6 to show the tabs again
