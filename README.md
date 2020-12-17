@@ -1,7 +1,9 @@
-<div align="center" style="margin-bottom: 10px">
+<div align="center">
   <h1>KeyFox</h1>
   <b>Minimal, Simple and only usable with a Keyboard</b>
 </div>
+
+<br/>
 
 ![](https://github.com/Job79/keyfox/raw/master/screenshots/2020-11-02-191039_1222x980_scrot.png)
 ![](https://github.com/Job79/keyfox/raw/master/screenshots/2020-11-02-195443_983x820_scrot.png)
