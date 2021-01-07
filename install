@@ -1,0 +1,6 @@
+dir="$(dirname "$(realpath "$0")")" # repo directory
+mkdir -p ~/.mozilla/keyfox
+cp -f "$dir/userChrome.css" ~/.mozilla/keyfox/
+cp -f "$dir/userContent.css" ~/.mozilla/keyfox/
+find ~/.mozilla/firefox/ -mindepth 1 -maxdepth 1 -type d -exec \
+ln -sf ~/.mozilla/keyfox {}/chrome \;
